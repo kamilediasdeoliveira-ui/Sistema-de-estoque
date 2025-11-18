@@ -2,7 +2,7 @@ import sqlite3
 import random
 import os
 import matplotlib
-matplotlib.use('TkAgg') # Define o backend do Matplotlib para o Tkinter /
+matplotlib.use('TkAgg') # Define o backend do Matplotlib para o Tkinter
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
@@ -816,4 +816,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
